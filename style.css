@@ -1,0 +1,158 @@
+html {
+    background-color: rgb(104, 104, 103);
+}
+
+body {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    width: 1500px;
+    background-color: white;
+    border: 3px solid black;
+
+}
+
+header {
+    padding-top: 20px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(10, 157, 0));
+    border-bottom:2px solid black ;
+}
+
+header h1,h2 {
+    padding-left: 160px;
+}
+img {
+    float: left;
+    margin: 5px;
+}
+
+
+aside {
+    float:right;
+    
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    left: 1100px;
+  }
+  .container {
+    position: relative;
+  }
+
+  li a{
+    color: rgb(10, 157, 0);
+  }
+  footer{
+    padding-top: 10px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0),rgb(10, 157, 0));
+    border-bottom:2px solid black ;
+    
+  }
+  footer p{
+    margin-left: 25px;
+  
+  }
+  
+
+.ai li a {
+    color: rgbrgb(10, 157, 0);
+    text-decoration: none;
+    padding: 10px; 
+    display: block; 
+}
+.ay{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li a:hover {
+    color:rgb(10, 157, 0);
+}
+.container {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px; /* Center container */
+    overflow: hidden;
+ 
+    /* border: 20px solid #ffffff; */
+    border-radius: 8px;
+    /* box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3); */
+    
+}
+
+.wrapper {
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+
+.ig {
+    height: auto; /* Adjust height as needed */
+    width: 50%; /* Ensure images take full width */
+    /* min-width: 50%; 
+    transition: transform 0.5s ease;  */
+    object-fit: cover;
+ 
+}
+
+/* @keyframes slide {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(0); }
+    30% { transform: translateX(-100%); }
+    50% { transform: translateX(-100%); }
+    55% { transform: translateX(-200%); }
+    75% { transform: translateX(-200%); }
+    80% { transform: translateX(-300%); }
+    100% { transform: translateX(-300%); }
+}
+
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.left-button {
+    left: 10px;
+}
+
+.right-button {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+
+
+
+
+.corousel-innerimg{
+    width: 100%;
+    height: auto;
+  }
+
+  main{
+    background-image: url("img/bg1.jpg");
+  }
+
+
+
+
+
+
+
+
+
+
+
+
